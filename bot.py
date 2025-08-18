@@ -66,7 +66,7 @@ def crawl_tbl():
                         continue
                     link = href.strip()
                     raw_text = tag.get_text(strip=True)
-                    title = raw_text.replace("www.1TamilMV.red-", "")\
+                    title = raw_text.replace("www.1TamilMV.blue", "")\
                                     .rstrip(".torrent").strip()
                     size = extract_size(raw_text)
 
