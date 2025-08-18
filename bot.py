@@ -138,7 +138,7 @@ class MN_Bot(Client):
                             caption = (
                                 f"{file['title']}\n"
                                 f"📦 {file['size']}\n"
-                                "#tbl torrent file"
+                                "#TBL"
                             )
                             await self.send_document(
                                 self.channel_id,
