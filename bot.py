@@ -138,7 +138,7 @@ class MN_Bot(Client):
                             caption = (
                                 f"{file['title']}\n"
                                 
-                                "𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐋𝐢𝐧𝐤 👇\nhttps://t.me/+5qdrejEiPBc2ZDM1\n\𝐧𝐑𝐬𝐬 | 𝐓𝐚𝐦𝐢𝐥𝐁𝐥𝐚𝐬𝐭𝐞𝐫𝐬 |𝐓𝐚𝐦𝐢𝐥𝐑𝐨𝐜𝐤𝐞𝐫𝐬 | 𝐓𝐁𝐋"
+                                "𝐑𝐬𝐬 | 𝐓𝐚𝐦𝐢𝐥𝐁𝐥𝐚𝐬𝐭𝐞𝐫𝐬 | 𝐓𝐚𝐦𝐢𝐥𝐑𝐨𝐜𝐤𝐞𝐫𝐬 | 𝐓𝐁𝐋"
                             )
                             await self.send_document(
                                 self.channel_id,
