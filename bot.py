@@ -138,7 +138,7 @@ class MN_Bot(Client):
                             caption = (
                                 f"{file['title']}\n"
                                 
-                                "𝐑𝐬𝐬 | 𝐓𝐚𝐦𝐢𝐥𝐁𝐥𝐚𝐬𝐭𝐞𝐫𝐬 | 𝐓𝐚𝐦𝐢𝐥𝐑𝐨𝐜𝐤𝐞𝐫𝐬 | 𝐓𝐁𝐋"
+                                "#DCU"
                             )
                             await self.send_document(
                                 self.channel_id,
