@@ -6,7 +6,7 @@ from mntg import TEXT, INLINE
 import asyncio
 
 
-@MN_Bot.on_message(filters.command("start"))
+@MN_Bot.on_message(filters.command("stop"))
 async def start(client: MN_Bot, msg: Message):
     await msg.reply_text(
         TEXT.START.format(msg.from_user.mention),
